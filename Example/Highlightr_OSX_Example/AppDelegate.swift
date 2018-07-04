@@ -19,12 +19,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        
-        textStorage.language = "Swift"
+
+
+        textStorage.language = "xml"
         textStorage.highlightr.setTheme(to: "Pojoaque")
         textStorage.highlightr.theme.codeFont = NSFont(name: "Courier", size: 12)
+
+        let languages = textStorage.highlightr.supportedLanguages().sorted()
+        print(languages)
         
-        let code = try! String.init(contentsOfFile: Bundle.main.path(forResource: "sampleCode", ofType: "txt")!)
+        let code = try! String.init(contentsOfFile: Bundle.main.path(forResource: "sample_html", ofType: "txt")!)
         textStorage.setAttributedString(NSAttributedString(string: code))
         
         let layoutManager = NSLayoutManager()

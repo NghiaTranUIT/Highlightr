@@ -19,6 +19,8 @@
 		8C9564361CE7A14A00C0C7FA /* sampleCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B8C331CBB03AF00338143 /* sampleCode.txt */; };
 		8CAC85751CDBBA930079CEC2 /* SampleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAC85731CDBBA930079CEC2 /* SampleCode.swift */; };
 		8CAC85761CDBBA930079CEC2 /* SampleCode.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CAC85741CDBBA930079CEC2 /* SampleCode.xib */; };
+		BAE438E420ED2B38001A42F7 /* sample_html.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE438E320ED2B38001A42F7 /* sample_html.txt */; };
+		BAE438E520ED2B38001A42F7 /* sample_html.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAE438E320ED2B38001A42F7 /* sample_html.txt */; };
 		C25B26CCF3E5A223CC4B1F9F /* Pods_Highlightr_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7A7D349026B3DBD70E13B6 /* Pods_Highlightr_Example.framework */; };
 		DDEB8EA16A261FFC30F35387 /* Pods_Highlightr_OSX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29BDC6C946FB3B281BAC72C /* Pods_Highlightr_OSX_Example.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,7 @@
 		8C95642F1CE79E5200C0C7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CAC85731CDBBA930079CEC2 /* SampleCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCode.swift; sourceTree = "<group>"; };
 		8CAC85741CDBBA930079CEC2 /* SampleCode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SampleCode.xib; sourceTree = "<group>"; };
+		BAE438E320ED2B38001A42F7 /* sample_html.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_html.txt; sourceTree = "<group>"; };
 		C52D7015E12B5CAA5D314E74 /* Pods-Highlightr_OSX_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highlightr_OSX_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F29BDC6C946FB3B281BAC72C /* Pods_Highlightr_OSX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Highlightr_OSX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACBE1ED06E5718AE417DCC0 /* Pods-Highlightr_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Highlightr_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +124,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				BAE438E320ED2B38001A42F7 /* sample_html.txt */,
 				8C0B8C331CBB03AF00338143 /* sampleCode.txt */,
 				8CAC85731CDBBA930079CEC2 /* SampleCode.swift */,
 				8CAC85741CDBBA930079CEC2 /* SampleCode.xib */,
@@ -210,7 +214,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				91E58AC425EA774EFA9EE9EE /* [CP] Embed Pods Frameworks */,
-				AECC48C4F1DD6213B3CA864B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +251,6 @@
 				8C9564231CE79E5200C0C7FA /* Frameworks */,
 				8C9564241CE79E5200C0C7FA /* Resources */,
 				99E9E4A243E20636B6862D85 /* [CP] Embed Pods Frameworks */,
-				9762E35CFD423139795C0974 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,6 +316,7 @@
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				8C0B8C341CBB03AF00338143 /* sampleCode.txt in Resources */,
+				BAE438E420ED2B38001A42F7 /* sample_html.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +334,7 @@
 				8C95642B1CE79E5200C0C7FA /* Assets.xcassets in Resources */,
 				8C9564361CE7A14A00C0C7FA /* sampleCode.txt in Resources */,
 				8C95642E1CE79E5200C0C7FA /* MainMenu.xib in Resources */,
+				BAE438E520ED2B38001A42F7 /* sample_html.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,21 +397,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9762E35CFD423139795C0974 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		99E9E4A243E20636B6862D85 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,21 +413,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AECC48C4F1DD6213B3CA864B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
